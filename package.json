@@ -1,6 +1,6 @@
 {
   "name": "@petercjl/xiaohongshu-photo-style",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "用 PhotoCraft 为单张照片或组图调色、贴花字，制作小红书风格图片",
   "files": [
     "bin",
