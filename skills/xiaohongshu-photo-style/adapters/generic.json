@@ -1,0 +1,47 @@
+{
+  "schema": "portable-skill-adapter",
+  "schema_version": "1.0.0",
+  "platform": "generic",
+  "mappings": [
+    {
+      "capability_id": "command.execute",
+      "status": "implemented",
+      "features": [
+        "argv-execution",
+        "exit-status",
+        "structured-output"
+      ],
+      "implementation": {
+        "kind": "instruction",
+        "discovery": "使用当前宿主公开的能力，核实必需特性。",
+        "normalization": "保留命令退出码、产物绝对路径和实际视觉观察。"
+      }
+    },
+    {
+      "capability_id": "filesystem.artifacts",
+      "status": "implemented",
+      "features": [
+        "read-write",
+        "exclusive-create"
+      ],
+      "implementation": {
+        "kind": "instruction",
+        "discovery": "使用当前宿主公开的能力，核实必需特性。",
+        "normalization": "保留命令退出码、产物绝对路径和实际视觉观察。"
+      }
+    },
+    {
+      "capability_id": "media.image.inspect",
+      "status": "implemented",
+      "features": [
+        "local-image-view",
+        "reference-comparison"
+      ],
+      "implementation": {
+        "kind": "instruction",
+        "discovery": "使用当前宿主公开的能力，核实必需特性。",
+        "normalization": "保留命令退出码、产物绝对路径和实际视觉观察。"
+      }
+    }
+  ]
+}

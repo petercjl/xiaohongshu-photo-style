@@ -1,0 +1,87 @@
+{
+  "schema": "portable-skill-capabilities",
+  "schema_version": "1.0.0",
+  "skill": "xiaohongshu-photo-style",
+  "target_platforms": [
+    "generic"
+  ],
+  "host_resolution": {
+    "fallback_adapter": "generic"
+  },
+  "capabilities": [
+    {
+      "id": "command.execute",
+      "purpose": "运行本地 PhotoCraft 命令",
+      "required": true,
+      "required_features": [
+        "argv-execution",
+        "exit-status",
+        "structured-output"
+      ],
+      "input_fields": [
+        "argv"
+      ],
+      "output_fields": [
+        "exitCode",
+        "stdout"
+      ],
+      "side_effects": {
+        "external_mutation": false,
+        "may_cost_money": false,
+        "authorization": "当前任务授权的本地文件范围"
+      },
+      "errors": [
+        "CAPABILITY_UNAVAILABLE",
+        "OUTPUT_CONTRACT_FAILED"
+      ]
+    },
+    {
+      "id": "filesystem.artifacts",
+      "purpose": "读取源图和保存新产物",
+      "required": true,
+      "required_features": [
+        "read-write",
+        "exclusive-create"
+      ],
+      "input_fields": [
+        "paths"
+      ],
+      "output_fields": [
+        "localPaths"
+      ],
+      "side_effects": {
+        "external_mutation": false,
+        "may_cost_money": false,
+        "authorization": "当前任务授权的本地文件范围"
+      },
+      "errors": [
+        "CAPABILITY_UNAVAILABLE",
+        "OUTPUT_CONTRACT_FAILED"
+      ]
+    },
+    {
+      "id": "media.image.inspect",
+      "purpose": "比较模板、源图及成图",
+      "required": true,
+      "required_features": [
+        "local-image-view",
+        "reference-comparison"
+      ],
+      "input_fields": [
+        "imagePaths"
+      ],
+      "output_fields": [
+        "observations"
+      ],
+      "side_effects": {
+        "external_mutation": false,
+        "may_cost_money": false,
+        "authorization": "当前任务授权的本地文件范围"
+      },
+      "errors": [
+        "CAPABILITY_UNAVAILABLE",
+        "OUTPUT_CONTRACT_FAILED"
+      ]
+    }
+  ]
+}

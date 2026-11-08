@@ -1,0 +1,28 @@
+{
+  "package": "@petercjl/xiaohongshu-photo-style",
+  "version": "0.0.0",
+  "files": {
+    "skills/xiaohongshu-photo-style/adapters/generic.json": "f78bb26a3af77e8d8712bc963e4c0fc5076274f749dbc206494a11a3f05238c3",
+    "skills/xiaohongshu-photo-style/agents/openai.yaml": "3638cd386200060c7b2b8d8acc400eef198ba22aa058dedfecd63dd69781e964",
+    "skills/xiaohongshu-photo-style/assets/bold-ink.png": "4e4a9e28d4a8d820646175f08e878848003c537b736719940d55d36d3e5d67c8",
+    "skills/xiaohongshu-photo-style/assets/bold-outline.png": "cd83d7ead1cb3279323891c85f492ba69aea60184a4021fd1a4433667e4fbff9",
+    "skills/xiaohongshu-photo-style/assets/candy-shadow.png": "5041096946cfabf63aff940073948b84f5f2a710390c017adaf30440c0f7df07",
+    "skills/xiaohongshu-photo-style/assets/circle-callout.png": "deef08f2e4097ef9a136c2db7fa4b9bffd7894fe4644a03d7837c4d68c7604de",
+    "skills/xiaohongshu-photo-style/assets/corner-bubble.png": "7970cc708805be450decebfbf4e4e8b8d26aac1ba9c5ecd58527121a77a9d790",
+    "skills/xiaohongshu-photo-style/assets/marker-word.png": "25e65370faea3cde73033548560f5fb2b426c1707beb3c53889469c8ca8864b9",
+    "skills/xiaohongshu-photo-style/assets/night-lamp.png": "be6e0e43ecaab1c18d6ee733760832f985148b5860e276122d8f65d2a710052b",
+    "skills/xiaohongshu-photo-style/assets/paired-tags.png": "dec4367793bf58fd8b2d6adbd391c506353ba59ece81551594aa630e4d84530c",
+    "skills/xiaohongshu-photo-style/assets/torn-paper-duo.png": "c618514dbf8eacc0583aa1c8451a63f8dc4aec63a1dff9b5647442818117e2a6",
+    "skills/xiaohongshu-photo-style/assets/vertical-brush.png": "ce80aa9cd3c63da21fca4ffcddade2397ee443b67865dca761cf9a62559504c3",
+    "skills/xiaohongshu-photo-style/assets/warm-paper.png": "447cc2865270c7d6a5012ffd39d063cb420209aa04d9bf28d50e368932ebdd97",
+    "skills/xiaohongshu-photo-style/assets/window-note.png": "0a9f5f96a6da27278b94ee8a35523b8327e2a1949c4b62582c8083c47533d37d",
+    "skills/xiaohongshu-photo-style/capabilities.json": "c68e7abc9277128a2857f19aa2210bb1c80b9a1f1f638a0cbb619e61e2ac0335",
+    "skills/xiaohongshu-photo-style/package.json": "bce32f457249c64dde1eb6520f8a0edab0db4ea509aaa947a782d52663b698a4",
+    "skills/xiaohongshu-photo-style/references/lettering-cards.md": "92399267ddf2864f8e73003077280d3c134072d49469ee8937f4441a74b502aa",
+    "skills/xiaohongshu-photo-style/SKILL.md": "b3e9babb2e66a84e1e41aac4da2506ec4d21228e89d2f1dd06d73651a38b640d",
+    "capabilities.json": "4e3839eb604cbc75641cdd268456f1e08f6e67d371ccdce2e7ddd2322f2143ae",
+    "INSTALL.md": "96ca1da1248a2c1997c97d32a36c33c188ba216b19207aac11f997066572c06e",
+    "UPDATE.md": "7036c69e8ed7ca081e8a271f9a6540fb4e7948d8e2bd503830135b16bd6c7a48",
+    "bin/xiaohongshu-photo-style.mjs": "a9be010da469b4ec7202103fcc9b7ab695d34047a9845500d2da5a62ace68283"
+  }
+}

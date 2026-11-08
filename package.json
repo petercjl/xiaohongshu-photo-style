@@ -1,0 +1,39 @@
+{
+  "name": "@petercjl/xiaohongshu-photo-style",
+  "version": "0.0.0",
+  "description": "用 PhotoCraft 为单张照片或组图调色、贴花字，制作小红书风格图片",
+  "files": [
+    "bin",
+    "src",
+    "skills",
+    "capabilities.json",
+    "skill-integrity.json",
+    "README.md",
+    "INSTALL.md",
+    "UPDATE.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petercjl/xiaohongshu-photo-style.git"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "bin": {
+    "xiaohongshu-photo-style": "bin/xiaohongshu-photo-style.mjs"
+  },
+  "scripts": {
+    "check": "node src/identity.mjs",
+    "test": "node --test",
+    "prepack": "npm run check",
+    "postinstall": "node src/install-notice.mjs",
+    "version": "node src/identity.mjs --sync && git add capabilities.json skill-integrity.json skills/xiaohongshu-photo-style/package.json"
+  },
+  "agentPackage": {
+    "kind": "application-skill"
+  }
+}
